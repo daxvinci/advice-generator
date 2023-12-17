@@ -1,0 +1,39 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-color: hsl(217, 19%, 24%);
+    height: 100vh;
+}
+.main{
+    width:500px;
+    height: 300px;
+    background-color:hsl(217, 19%, 38%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+}
+.id{
+    margin: 40px 0px 10px 0px;
+    color: hsl(193, 38%, 86%);
+}
+.txt{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 40%;
+    
+}
+.circle{
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 50%;
+    height:46px;
+    width: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom:-23px;
+}
